@@ -9,6 +9,7 @@ and Audit Trail resources.
 ```
 https://api.workos.com
 ```
+---
 ###### LANGUAGES
 # Client Liabraries
 WorkOS offers native SDKs in several popular programming languages. Choose one
