@@ -6,22 +6,16 @@ and Audit Trail resources.
 
 [Sign in](#qwe) in to see code examples customized with your API keys and data.
 
-
-* [deleteTicketingConnectionIdAgentId](#deleteticketingconnectionidagentid) - Remove a agent
-* [getTicketingConnectionIdAgent](#getticketingconnectionidagent) - List all agents
-* [getTicketingConnectionIdAgentId](#getticketingconnectionidagentid) - Retrieve a agent
-* [getUcConnectionIdAgent](#getucconnectionidagent) - List all agents
-* [patchTicketingConnectionIdAgentId](#patchticketingconnectionidagentid) - Update a agent
-* [postTicketingConnectionIdAgent](#postticketingconnectionidagent) - Create a agent
-* [putTicketingConnectionIdAgentId](#putticketingconnectionidagentid) - Update a agent
-
-## deleteTicketingConnectionIdAgentId
-
-Remove a agent
-
-## Example Usage
+```
+https://api.workos.com
+```
+###### LANGUAGES
+# Client Liabraries
+WorkOS offers native SDKs in several popular programming languages. Choose one
+language below to see our API Reference in your application’s language.
 
 ```java
+*Title*
 package hello.world;
 
 import com.Unified.Unified_to.UnifiedTo;
@@ -50,4 +44,3 @@ public class Application {
     }
 }
 ```
-
