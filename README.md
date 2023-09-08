@@ -23,7 +23,7 @@ https://api.workos.com
 WorkOS offers native SDKs in several popular programming languages. Choose one
 language below to see our API Reference in your application’s language.
 
-```java:TestJava
+```java:Test Java
 package hello.world;
 
 import com.Unified.Unified_to.UnifiedTo;
