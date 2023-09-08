@@ -1,3 +1,11 @@
+---
+metadata1: test
+metadata2: metadata2
+metadataArray:
+  - test1
+  - test2
+---
+
 ###### OVERVIEW
 # API Reference
 The WorkOS API enables adding Enterprise Ready features to your application. This REST
@@ -16,7 +24,6 @@ WorkOS offers native SDKs in several popular programming languages. Choose one
 language below to see our API Reference in your application’s language.
 
 ```java
-*Title*
 package hello.world;
 
 import com.Unified.Unified_to.UnifiedTo;
@@ -30,7 +37,7 @@ public class Application {
             UnifiedTo sdk = UnifiedTo.builder()
                 .build();
 
-            DeleteTicketingConnectionIdAgentIdRequest req = new DeleteTicketingConnectionIdAgentIdRequest("quibusdam", "unde");            
+            DeleteTicketingConnectionIdAgentIdRequest req = new DeleteTicketingConnectionIdAgentIdRequest("quibusdam", "unde");
 
             DeleteTicketingConnectionIdAgentIdResponse res = sdk.agent.deleteTicketingConnectionIdAgentId(req, new DeleteTicketingConnectionIdAgentIdSecurity("nulla") {{
                 jwt = "";
@@ -68,4 +75,16 @@ public class Application {
 
 </body>
 </html>
+```
+---
+###### HOW TO CHECK
+# Testing the API
+The WorkOS API enables adding Enterprise Ready features to your application. This REST
+API provides programmatic access and management of SSO, Magic Link, Directory Sync,
+and Audit Trail resources.
+
+~~Check out the guide about the WorkOS API Postman collection to learn more about it.~~
+
+```
+https://api.workos.com
 ```
